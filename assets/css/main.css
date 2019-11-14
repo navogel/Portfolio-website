@@ -2178,7 +2178,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1200px) {
 
 			.features {
 				display: block;
@@ -3096,7 +3096,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1200px) {
 
 			.spotlights > section {
 				display: block;
@@ -3921,8 +3921,12 @@ input, select, textarea {
 
 .sidebarIcons {
 	
-	margin-left: 30px;
+	margin-bottom: 30px;
 	
+}
+
+.sidebarIcons a {
+	margin: .5em;
 }
 
 .headerIcons {
@@ -3933,7 +3937,7 @@ input, select, textarea {
 	
 	padding: 5px;
 	
-	margin-left: 30px;
+	
 	
 }
 
