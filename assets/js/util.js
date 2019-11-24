@@ -4,6 +4,9 @@
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
 	 */
+
+	
+	window.onload = loadVideo();
 	$.fn.navList = function() {
 
 		var	$this = $(this);

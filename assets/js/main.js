@@ -4,10 +4,40 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// my own custom JS for modal
+
+
+
+
+
+
+
+
 (function($) {
     var $window = $(window),
         $body = $('body'),
         $sidebar = $('#sidebar');
+
+
+
+//modal 
+$( "#TB-modal" ).click(function() {
+    let modal = document.getElementById("myModal");
+		let span = document.getElementsByClassName("close")[0];
+        modal.style.display = "block";
+        
+		//click on close button or anywhere on the window to close modal
+		span.onclick = () => {
+            modal.style.display = "none";
+            //player.stopVideo();
+		};
+		window.onclick = function(event) {
+			if (event.target == modal) {
+                modal.style.display = "none";
+              //  player.stopVideo();
+			}
+		};
+  });
 
     // Breakpoints.
     breakpoints({
